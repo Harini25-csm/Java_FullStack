@@ -1,6 +1,6 @@
 package Arrays;
 
-public class ArrayMethos {
+public class ArrayMethods {
     public static void main(String[] args) {
         // //method 1
         int[] marks={85,234,59,50};
