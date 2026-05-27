@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Methods;
 
 public class Second_large {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Second_large {
             }
         }
         for(int i=0;i<arr.length;i++){
-            if(arr[i]<sl && arr[i]!=fl){
+            if(arr[i]>sl && arr[i]!=fl){
                 sl=arr[i];
             }
         }

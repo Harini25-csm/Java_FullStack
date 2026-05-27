@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Methods;
 
 public class Methods {
     // // Using void

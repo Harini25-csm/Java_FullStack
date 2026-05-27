@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Methods;
 
 public class Array_2D {
     public static void main(String[] args) {

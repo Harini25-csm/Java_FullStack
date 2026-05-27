@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Methods;
 
 public class Saddle_point {
     public static void main(String[] args) {

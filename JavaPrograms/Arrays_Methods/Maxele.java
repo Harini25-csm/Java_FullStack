@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Methods;
 import java.util.Arrays;
 public class Maxele {
     public static void main(String[] args) {
