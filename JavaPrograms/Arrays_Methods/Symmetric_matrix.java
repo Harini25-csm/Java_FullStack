@@ -6,7 +6,7 @@ public class Symmetric_matrix {
         int[][] matrix = {
             {1,2,3},
             {2,6,7},
-            {3,8,9}
+            {3,7,9}
         };
         boolean sm = true;
         for(int i = 0; i < matrix.length; i++){
@@ -16,7 +16,7 @@ public class Symmetric_matrix {
                     break;
                 }
             }
-            if(!sm){
+            if(!sm){//breaks the outer loop as well
                 break;
             }
         }
