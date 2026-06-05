@@ -1,4 +1,5 @@
-package Constructor;
+package Oops.Constructor;
+
 class Student {
     int id;
     String name;

@@ -1,4 +1,4 @@
-package Constructor;
+package Oops.Inheritance;
 
 public class Employee {
     String name;

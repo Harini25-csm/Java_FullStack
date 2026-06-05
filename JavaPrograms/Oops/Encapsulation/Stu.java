@@ -1,4 +1,4 @@
-package Constructor;
+package Oops.Encapsulation;
 
 public class Stu {
     private String name;

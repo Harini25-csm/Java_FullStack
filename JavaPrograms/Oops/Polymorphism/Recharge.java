@@ -1,4 +1,4 @@
-package Constructor;
+package Oops.Polymorphism;
 public class Recharge{
     static void recharge(String mobileNum){
         System.out.println("Recharge default plan: "+mobileNum);
