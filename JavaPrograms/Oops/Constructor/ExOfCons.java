@@ -1,10 +1,10 @@
 package Oops.Constructor;
 
-class Student {
+class StudentRecord {
     int id;
     String name;
 
-    Student(int i, String n) {//Constructor
+    StudentRecord(int i, String n) {//Constructor
         id = i;
         name = n;
     }
@@ -12,7 +12,7 @@ class Student {
 
 public class ExOfCons {
     public static void main(String[] args) {
-        Student s = new Student(101, "Harini");
+        StudentRecord s = new StudentRecord(101, "Harini");
 
         System.out.println(s.id + " " + s.name);
     }

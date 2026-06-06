@@ -1,12 +1,12 @@
 package Oops.Inheritance;
 
-public class Employee {
+public class EmployeeHi {
     String name;
     int age;
     float salary;
     
-    static class permanentEmployee extends Employee{}
-    static class contractEmployee extends Employee{}
+    static class permanentEmployee extends EmployeeHi{}
+    static class contractEmployee extends EmployeeHi{}
     public static void main(String[] args) {
         permanentEmployee p=new permanentEmployee();
         System.out.println("Permamant Employee:");

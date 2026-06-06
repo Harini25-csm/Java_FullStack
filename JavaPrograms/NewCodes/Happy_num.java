@@ -1,7 +1,7 @@
 //A happy num is a +ve integer that eventually reaches '1' 
 // when you repeatedlly replace it with sum of square of the digits
 
-package Arrays_Methods;
+package NewCodes;
 import java.util.Scanner;
 public class Happy_num {
     public static void main(String[] args) {

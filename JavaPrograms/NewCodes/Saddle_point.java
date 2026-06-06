@@ -1,18 +1,18 @@
-package Arrays_Methods;
+package NewCodes;
 
 public class Saddle_point {
     public static void main(String[] args) {
         int[][] matrix={
             {1,2,3},
-            {7,5,6},
-            {1,8,9}
+            {4,5,6},
+            {7,8,9}
         };
         boolean found = false;
         for (int i = 0; i < matrix.length; i++) {
             // find min element in the current row
             int minVal = matrix[i][0];
             int minCol = 0;
-            for (int j = 1; j < matrix[i].length; j++) {
+            for (int j = i+1; j < matrix.length; j++) {
                 if (matrix[i][j] < minVal) {
                     minVal = matrix[i][j];
                     minCol = j;

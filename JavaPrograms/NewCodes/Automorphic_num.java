@@ -1,4 +1,4 @@
-package Arrays_Methods;
+package NewCodes;
 
 import java.util.Scanner;
 
