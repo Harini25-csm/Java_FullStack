@@ -1,9 +1,9 @@
 package Oops.InterfaceCodes;
 
-public class Car extends Vechile implements AMulp, BMulp {
+public class Car extends Vehicle implements AMulp, BMulp {
     @Override
     public void veType(String type) {
-        super.veType(type);
+        super.veType(type);//super refers to the parent class object.
         System.out.println("Car type: "+type);
     }
 
