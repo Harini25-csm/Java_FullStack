@@ -21,14 +21,14 @@ public class Jagged_array {
         // j[2]=new int[4];
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter no.of rows:");
-        int n=sc.nextInt();
-        int[][] ja=new int [n][];
-        for(int i=0;i<n;i++){
+        int r=sc.nextInt();
+        int[][] ja=new int [r][];
+        for(int i=0;i<r;i++){
             System.out.print("Enter no.of cols"+(i+1)+":");
-            int col=sc.nextInt();
-            ja[i]=new int[col];
-            System.out.print("Enter "+col+" elements:");
-            for(int j=0;j<col;j++){
+            int c=sc.nextInt();
+            ja[i]=new int[c];
+            System.out.print("Enter "+c+" elements:");
+            for(int j=0;j<c;j++){
                 ja[i][j]=sc.nextInt();
             }
         }
