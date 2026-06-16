@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading_Exceptions;
 
 // Th class extends Thread
 // This is one way of creating a thread

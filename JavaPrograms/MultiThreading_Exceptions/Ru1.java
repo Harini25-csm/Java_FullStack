@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading_Exceptions;
 
 // Another Runnable implementation
 public class Ru1 implements Runnable {

@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading_Exceptions;
 
 public class Demo {
     public static void main(String[] args) {

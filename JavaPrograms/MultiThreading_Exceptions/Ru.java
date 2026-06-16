@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading_Exceptions;
 
 // Ru class implements Runnable
 // This is another way of creating a thread
