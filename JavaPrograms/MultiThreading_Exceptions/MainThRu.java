@@ -1,6 +1,6 @@
 package MultiThreading_Exceptions;
 
-public class MaThRu {
+public class MainThRu {
     public static void main(String[] args) {
         // Step 1: Create object of Th class
         // Thread is CREATED but not started yet
