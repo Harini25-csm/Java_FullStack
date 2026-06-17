@@ -1,6 +1,6 @@
 package MultiThreading_Exceptions;
 import java.util.Scanner;
-public class Bank {
+public class MainBankIBE {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int bal=10000;
