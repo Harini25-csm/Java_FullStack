@@ -4,6 +4,7 @@ package MultiThreading_Exceptions;
 // This is one way of creating a thread
 public class Th extends Thread {
     // Code inside run() executes in a separate thread
+    @Override
     public void run() {
         System.out.println("Order food from Swiggy");
     }

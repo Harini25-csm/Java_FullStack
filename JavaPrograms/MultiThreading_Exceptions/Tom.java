@@ -8,7 +8,7 @@ public class Tom extends Thread{
             try{
                 Thread.sleep(1000);
             }catch(Exception e){
-                e.getMessage();
+                e.getMessage(); 
             }
         }
     }
